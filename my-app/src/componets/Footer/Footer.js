@@ -12,6 +12,7 @@ export default function Footer() {
   <a href="#TeamRoster">Team Roster</a>
   <a href="#Youth">Youth Program</a>
 </div>
+
     </div>
   );
 } 
