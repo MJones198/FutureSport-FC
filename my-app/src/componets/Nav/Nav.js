@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Logo from 'C:/Users/Mason/Uni A2/my-app/src/assets/Logo.jpg';
-// import Logo from '/assets/Logo.jpg';
+// import Logo from '/../../assets/images'; 
+import Logo from 'C:/Users/Mason/Uni A2/my-app/src/assets/images/Logo.jpg';
+
 export default function Navbar() {
  
   const [stickyClass, setStickyClass] = useState('');

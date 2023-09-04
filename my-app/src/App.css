@@ -109,6 +109,50 @@ a
   justify-self: end;
   text-decoration: none;
   padding: 20px;
-  
- 
+}
+
+/* .Videos
+    { display: flex ; 
+      padding: 30px; 
+      justify-content: space-around;
+      height: 500px;
+      background-color:  var(--LR); text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+      object-fit: cover;
+    } */
+
+.Videos
+{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 1fr 80px;
+  background-color: var(--LR);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+  object-fit: contain;
+}
+
+.Clip1
+{
+  display: grid;
+  grid-column:1/1 ;
+  grid-row: 1/1;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.Clip2
+{
+  display: grid;
+  grid-column:2/2 ;
+  grid-row: 1/1;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.Clip3
+{
+  display: grid;
+  grid-column:3/3 ;
+  grid-row: 1/1;
+  object-fit: cover;
+  padding: 20px;
 }
