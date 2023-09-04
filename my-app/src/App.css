@@ -1,0 +1,114 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  --LR: rgb(214, 28, 78,1);
+  --AW: rgb(250, 235, 215);
+}
+
+
+.App 
+{
+  
+  text-align: center;
+}
+
+.Header 
+    { 
+    display: grid; 
+    grid-template-columns:  1fr; 
+    grid-template-rows: 1fr;
+    border-width: 2px; 
+    font-size: 18px;
+    border-style: solid;
+    border-color: var(--LR); 
+    background-color: rgb(250, 235, 215); 
+    text-align: center;
+    color: var(--LR);
+    height: 70px;
+    padding-top: 20px;
+    }
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 999;
+  height: 90px;
+  width: 100%;
+  background-color: var(--LR);
+ 
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a
+{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  
+  
+}
+
+.Links
+{
+  display: inline;
+  grid-column: 2/3;
+  grid-row: 1/1;
+  text-align: right;
+  padding: 30px;
+ 
+  
+  
+  
+}
+
+.Logo 
+{
+  display: flex;
+  position: relative;
+  grid-column: 1/2;
+  object-fit: contain;
+  padding: 10px;
+  max-width: fit-content;
+  max-height: fit-content;
+
+}
+
+.Footer
+{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0px;
+  padding: 20px;
+  background-color: var(--AW);
+  border-top: 1px solid  black;
+  height: 90px;
+}
+
+
+.FooterBar
+{
+  display: inline-block;
+  position:  relative;
+  grid-column: 2/3;
+  justify-content: end;
+  justify-self: end;
+  text-decoration: none;
+  padding: 20px;
+  
+ 
+}
