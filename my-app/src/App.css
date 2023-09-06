@@ -35,12 +35,12 @@
 
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100px 350px 1fr 100px;
   grid-template-rows: 90px;
   justify-content: space-between;
   position: relative;
   z-index: 999;
-  height: 90px;
+  height: 110px;
   width: 100%;
   background-color: var(--LR);
  
@@ -58,6 +58,7 @@ a
   text-decoration: none;
   color: black;
   position: relative;
+  border-right: 1px solid black;
   
   
 }
@@ -65,10 +66,12 @@ a
 .Links
 {
   display: inline;
-  grid-column: 2/3;
+  grid-column: 3/3;
   grid-row: 1/1;
   text-align: right;
   padding: 30px;
+  font-size: 20px;
+  
  
   
   
@@ -81,10 +84,29 @@ a
   position: relative;
   grid-column: 1/2;
   object-fit: contain;
-  padding: 10px;
+  padding: 5px;
   max-width: fit-content;
   max-height: fit-content;
 
+}
+
+.Fixtures
+{
+ display: grid;
+ grid-column: 2/2;
+ grid-row: 1/1;
+ padding: 10px;
+ padding-left: 30px;
+
+}
+
+.Spon
+{
+  display: grid;
+  grid-column: 4/4;
+  grid-row: 1/1;
+  object-fit: contain;
+  padding: 5px;
 }
 
 .Footer
@@ -156,3 +178,63 @@ a
   object-fit: cover;
   padding: 20px;
 }
+
+/*  */
+
+.UpcomingFix{
+  background-color: var(--LR);
+  border: none;
+  text-decoration: underline;
+  font-size: 17px;
+
+}
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: var(--LR);
+  padding: 14px 28px;
+  border-radius: 3px;
+  /* max-width: 600px;
+  min-width: 300px; */
+width: 500px;
+}
+
+.close-modal {
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  background-color: var(--LR);
+  border: none;
+  color: black;
+  font-size: 18px;
+}
+/*  */
