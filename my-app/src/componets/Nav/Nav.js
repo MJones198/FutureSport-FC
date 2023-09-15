@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import Logo from '/../../assets/images'; 
-import Logo from 'C:/Users/Mason/Uni A2/my-app/src/assets/images/Logo.jpg';
-import spon from 'C:/Users/Mason/Uni A2/my-app/src/assets/images/Sponser.jpg';
+import Logo from '../../assets/images/Logo.jpg';
+import spon from '../../assets/images/Sponser.jpg';
 
 export default function Navbar() {
  
@@ -44,12 +43,11 @@ export default function Navbar() {
     
     <img className='Logo' src={Logo} alt='Logo' width={"100%"} height={"100%"}></img>
 
-    {/* <br></br> */}
 
     <div className='Fixtures'>
 
     
-    <colgroup/>
+    
     <table border="1">
       <col width="10%"/>
       <col width="10%"/>
@@ -126,7 +124,7 @@ export default function Navbar() {
 
       
       </div>
-      <img class="Spon" src={spon} alt="sponser" width={"100%"} height={"100%"}></img>
+      <img className="Spon" src={spon} alt="sponser" width={"100%"} height={"100%"}></img>
 
 
   </div>

@@ -5,6 +5,8 @@ import clip3 from 'C:/Users/Mason/Uni A2/my-app/src/assets/vid/clip3.mp4';
 
 export default function Videos() {
   return (
+      <>
+ <section id="Home"/>
 <div className="Videos">
 
 
@@ -31,5 +33,6 @@ export default function Videos() {
 
 
   </div>
+  </>
   );
 } 
