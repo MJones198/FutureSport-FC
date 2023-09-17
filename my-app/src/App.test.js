@@ -7,5 +7,6 @@ describe('App', () => {
   test('renders App component', () => {
     render(<App />);
     screen.debug();
+    // expect(screen.getByText)
   });
-});
+});https://github.com/MJones198/A2
