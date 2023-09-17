@@ -49,10 +49,7 @@ export default function Navbar() {
     
     
     <table border="1">
-      <col width="10%"/>
-      <col width="10%"/>
-      <col width="10%"/>
-      <col width="10%"/>
+      
       <thead>
         <tr>
         <th>24/7/23</th>
