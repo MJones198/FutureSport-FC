@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mjones198.github.io/Uni-A2",
   "dependencies": {
     "gh-pages": "^6.0.0",
     "react-table": "^7.8.0"

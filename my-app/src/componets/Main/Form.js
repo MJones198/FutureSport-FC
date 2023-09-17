@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
           <br />
           <input type="text" name="LastName" id="LastName" onChange={handleChange} value={data.LastName} placeholder='Last Name'/>
           <br />
-          <input type="text" name="Email" id="Email" onChange={handleChange} value={data.Email} placeholder='Email'/>
+          <input aria-label="Email" type="text" name="Email" id="Email" onChange={handleChange} value={data.Email} placeholder='Email'/>
           <br />
         </div>
       <textarea className='Msgg' placeholder= "Message or Querey" onChange={handleChange} value={data.Msg} name="Msg" id="Msg" cols="30" rows="15" />
