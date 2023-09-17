@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/github.io/Uni-A2/static/css/main.eb841043.css",
-    "main.js": "/github.io/Uni-A2/static/js/main.9e8c0c00.js",
-    "static/js/787.28cb0dcd.chunk.js": "/github.io/Uni-A2/static/js/787.28cb0dcd.chunk.js",
-    "static/media/clip3.mp4": "/github.io/Uni-A2/static/media/clip3.d227a1b67950cbfe89b2.mp4",
-    "static/media/clip2.mp4": "/github.io/Uni-A2/static/media/clip2.40a97a02537803ba01d0.mp4",
-    "static/media/Y1.jpg": "/github.io/Uni-A2/static/media/Y1.c0aa52b506d2e951caa3.jpg",
-    "static/media/clip1.mp4": "/github.io/Uni-A2/static/media/clip1.64da542af373db5cf213.mp4",
-    "static/media/J1.jpg": "/github.io/Uni-A2/static/media/J1.47e942ed811e54db7b67.jpg",
-    "static/media/J3.jpg": "/github.io/Uni-A2/static/media/J3.192b1987a7c980548a04.jpg",
-    "static/media/J2.jpg": "/github.io/Uni-A2/static/media/J2.3a08aa6150ce4bc9f799.jpg",
-    "static/media/team.jpg": "/github.io/Uni-A2/static/media/team.11df095282e831b4ad0b.jpg",
-    "static/media/C1.jpg": "/github.io/Uni-A2/static/media/C1.ced683b72f9d34cb8d7b.jpg",
-    "static/media/Logo.jpg": "/github.io/Uni-A2/static/media/Logo.5cf9337614a862c87115.jpg",
-    "static/media/Sponser.jpg": "/github.io/Uni-A2/static/media/Sponser.f8dfed1483007d8faf4b.jpg",
-    "index.html": "/github.io/Uni-A2/index.html",
-    "main.eb841043.css.map": "/github.io/Uni-A2/static/css/main.eb841043.css.map",
-    "main.9e8c0c00.js.map": "/github.io/Uni-A2/static/js/main.9e8c0c00.js.map",
-    "787.28cb0dcd.chunk.js.map": "/github.io/Uni-A2/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Uni-A2/static/css/main.eb841043.css",
+    "main.js": "/Uni-A2/static/js/main.46855b5e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Uni-A2/static/js/787.28cb0dcd.chunk.js",
+    "static/media/clip3.mp4": "/Uni-A2/static/media/clip3.d227a1b67950cbfe89b2.mp4",
+    "static/media/clip2.mp4": "/Uni-A2/static/media/clip2.40a97a02537803ba01d0.mp4",
+    "static/media/Y1.jpg": "/Uni-A2/static/media/Y1.c0aa52b506d2e951caa3.jpg",
+    "static/media/clip1.mp4": "/Uni-A2/static/media/clip1.64da542af373db5cf213.mp4",
+    "static/media/J1.jpg": "/Uni-A2/static/media/J1.47e942ed811e54db7b67.jpg",
+    "static/media/J3.jpg": "/Uni-A2/static/media/J3.192b1987a7c980548a04.jpg",
+    "static/media/J2.jpg": "/Uni-A2/static/media/J2.3a08aa6150ce4bc9f799.jpg",
+    "static/media/team.jpg": "/Uni-A2/static/media/team.11df095282e831b4ad0b.jpg",
+    "static/media/C1.jpg": "/Uni-A2/static/media/C1.ced683b72f9d34cb8d7b.jpg",
+    "static/media/Logo.jpg": "/Uni-A2/static/media/Logo.5cf9337614a862c87115.jpg",
+    "static/media/Sponser.jpg": "/Uni-A2/static/media/Sponser.f8dfed1483007d8faf4b.jpg",
+    "index.html": "/Uni-A2/index.html",
+    "main.eb841043.css.map": "/Uni-A2/static/css/main.eb841043.css.map",
+    "main.46855b5e.js.map": "/Uni-A2/static/js/main.46855b5e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Uni-A2/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb841043.css",
-    "static/js/main.9e8c0c00.js"
+    "static/js/main.46855b5e.js"
   ]
 }
